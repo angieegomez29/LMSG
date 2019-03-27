@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link href="./css/estilos.css" rel="stylesheet" type="text/css"> <!-- ESTO ES LA FORMA DE APLICAR ESTILOS MAS RECOMENDADA-->
+    	<meta name="description" content="los tipos de estilos" />
+    	<title>Prueba de CSS</title>
+    </head>
+    <body>
+    	<div>
+    		<div>
+		    	<div>
+		    		<h1 id="tit1">CCS: Sintaxis y selectores</h1>
+		    	</div>
+		    	</hr>
+		    	<div>
+		    		<h4>Sintaxis CSS</h4>
+		    		<p id="text1">Un conjunto de reglas CSS consta de un selector y un bloque de declaración</p>
+		    		<img src="imagenes/img1.gif" title="Elementos de selector" alt="ejemplo">
+		    		<ul>
+		    			<li>El selector apunta hacia el elemento HTML que desea dar estilo.
+		    				<ul>
+			    				<li>El bloque de declaración contiene una o más declaraciones separadas por punto y coma</li>
+			    				<li>Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos</li>
+			    				<li>Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaración están rodeados por llaves</li>
+			    			</ul>
+			    		</li>
+		    		</ul>
+		    		<p>En el siguiente ejemplo, todos los elementos p se alinearán en el centro, con un color de texto rojo</p>
+		    	</div>
+		    	<div>
+		    		<h4 class="ejemplo">Ejemplo</h4>
+		    		<img src="imagenes/img2.gif" title="imagen2" alt="ejemplo">
+		    		<a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1" alt="enlace">Intentalo tu mismo</a>
+		    	</div>
+		    	<div>
+		    		<h3 class="ejemplo">Selectores CSS</h3>
+		    		<p>Los selectores de CSS se utilizan para "buscar" (o seleccionar) elementos HTML en función de su nombre de elemento, id, clase, atributo y más.</p>
+		    	</div>
+		    	<div>
+		    		<h4 class="ejemplo">El selector de elementos</h4>
+		    		<p>El selector de elementos selecciona elementos en función del nombre del elemento.
+					Puede seleccionar todos los elementos en una página como esta (en este caso, todos los elementos estarán alineados en el centro, con un color de texto rojo)</p>
+		    	</div>
+		    	<div>
+		    		<h3 class="ejemplo">El selector de id</h4>
+		    		<p>El selector de id utiliza el atributo id de un elemento HTML para seleccionar un elemento específico.
+
+					El ID de un elemento debe ser único dentro de una página, por lo que el selector de ID se utiliza para seleccionar un elemento único.
+
+					Para seleccionar un elemento con un ID específico, escriba un carácter de hash (#), seguido del ID del elemento.
+
+					La regla de estilo a continuación se aplicará al elemento HTML con id = "para1</p>
+		    	</div>
+		    		<h2 class="ejemplo">El selector de clase</h2>
+		    		<p>El selector de clase selecciona elementos con un atributo de clase específico.
+					Para seleccionar elementos con una clase específica, escriba un carácter de punto (.), Seguido del nombre de la clase.
+					En el ejemplo a continuación, todos los elementos HTML con class = "center" estarán en rojo y alineados en el centro</p>
+		    	<div>
+		    		
+		    	</div>
+		    	<div>
+		    		
+		    	</div>
+		    	<div>
+		    		<h4 id="link">NOTA: Es muy importante saber que tipo de elemento es cada etiqueta que usamos.</h4>
+		    	</div>
+		    </div>
+	    	<div>
+	    		<div>
+	    			<h1 class="titulo">PARTE 2 B</h1>
+	    		</div>
+	    		<div>
+	    			<h1 class="titulo">HOJA DE INSCRIPCIÓN</h1>
+	    			<h1 class="titulo">EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+	    		</div>
+	    		<div>
+	    			<form action="#" method="POST">
+	    			<fieldset id="fondo1">
+	    				<legend>Datos Personales</legend>
+	    				<table>
+	    					<tr>
+	    						<td><label for="nombre">Nombre:</label></td>
+	    						<td><label for="apellido">Apellido:</label></td>
+	    						<td><label for="dni">DNI:</label></td>
+	    					</tr>
+	    					<tr>
+	    						<td><input type="text" name="nombre" id="nombre" size="20" maxlength="250"></td>
+	    						<td><input type="text" name="apellido" id="apellido" size="20" maxlength="250"></td>
+	    						<td><input type="text" name="dni" id="dni" size="20" maxlength="9" pattern="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))"></td>
+	    					</tr>
+	    					<tr>
+	    						<td><label for="localidad">Localidad de nacimiento:</label></td>
+	    						<td><label for="provincia">Provincia</label></td>
+	    						<td><label for="fecha">Fecha de nacimiento:</label></td>
+	    					</tr>
+	    					<tr>
+	    						<td><input type="text" name="localidad" id="localidad" size="20" maxlength="250"></td>
+	    						<td><select>
+									  <option value="Santander">Santander</option>
+									  <option value="Burgos">Burgos</option>
+									</select></td>
+	    						<td><input type="date" name="fecha" id="fecha" size="20" maxlength="250"></td>
+	    					</tr>
+	    					<tr>
+	    						<td colspan="2"><label for="direccion">Dirección:</label></td>
+	    						<td><label for="codigo">Código postal:</label></td>
+	    					</tr>
+	    					<tr>
+	    						<td><input type="text" name="direccion" id="direccion" size="40" maxlength="300"></td>
+	    						<td><input type="number" name="codigo" id="codigo" size="20" maxlength="5"></td>
+	    					</tr>
+	    				</table>
+	    			</fieldset>
+	    			<div>
+		    			<fieldset id="fondo2">
+		    				<legend>Forma de Acceso</legend>
+		    				<ul>
+		    					<li><label for="direct"><input type="radio" name="formacceso" value="directo" id="direct"/>Directo</label> <!--El label sirve para poder pinchar en el nombre de cada opcion, hay que añadirle el id y en el label el for-->
+		    					<ul>
+		    						<li><label for="bach"><input type="radio" name="formacceso" value="directo" id="bach"/>Bachillerato LOG Modalidad</label><label for="bachi"><input type="text" name="directo" id="bachi"/></li>
+		    						<li><input type="radio" name="formacceso" value="exp"/>Experimental</li>
+		    						<li><input type="radio" name="formacceso" value="cou"/>COU Opción<input type="text" name="cou"/></li>
+		    						<li><input type="radio" name="formacceso" value="fp"/>FP2</li>
+		    						<li><input type="radio" name="formacceso" value="otro"/>Otros (especifique)<input type="text" name="otros"/></li>
+		    					</ul>
+		    					</li>
+		    					<li><li><input type="radio" name="libre" value="libre"/>Prueba libre</li>
+		    			</fieldset>
+	    			</div>
+	    			<div>
+	    				<fieldset id="fondo3">
+	    					<legend>Documentos Adjuntados</legend>
+	    					<table>
+	    						<tr>
+	    							<td><input type="radio" name="fotodni"/>Fotocopia DNI</td>
+	    							<td><input type="radio" name="certaca"/>Certificado Académico</td>
+	    						</tr>
+	    						<tr>
+	    							<td><input type="radio" name="docs"/>Otros documentos (especifique)<input type="text" name="certaca" size="20" maxlength="300" /></td>
+	    						</tr>
+	    					</table>
+	    				</fieldset>
+	    			</div>
+	    		</div>
+	    	</div>
+    	</div>
+    </body>
