@@ -1,0 +1,28 @@
+body {font-family: "Helvetica", Times New Roman;}
+
+legend{
+	border-style: solid;
+	border-radius: 20px;
+	border-width: thin;
+	border-color:black;
+	background-color: white;
+}
+fieldset#fondo1{
+	background-color: lightgrey;
+	border-radius: 25px;
+}
+
+fieldset#fondo2{
+	background-color: beige;
+	border-radius:25px;
+}
+fieldset#fondo3{
+	background-color:plum;
+	border-radius:25px; 
+}
+ul{
+	list-style-type: none;
+}
+h1{
+	text-align: center;
+}
