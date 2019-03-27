@@ -1,0 +1,52 @@
+body {font-family: "Helvetica", Times New Roman;
+} /*Sirve para añadir la fuente de letra a la pagina*/
+
+#link {
+	color:pink;
+}
+li{
+	color:red;
+}
+li li {
+	color:green;
+}
+/*sirve para dar formato a los li*/ /*li li significa que al no separarlo por comas uno es hijo del otro*/
+#tit1{
+	color:white;
+	background-color:grey;
+	font-size:24px;
+}
+.ejemplo{
+	background-color: blue;
+	color:white;
+}
+h3.ejemplo{
+	background-color:black;
+	color:white;
+}
+h2,h4{
+	border:2px solid orange
+}
+p{
+	color:black;
+	text-align:left;
+}
+
+#tex1{
+	background-color:green;
+}
+div>a{
+	border:5px solid green;
+}
+h2+p {
+	background-color:green;
+}*//*P despues de h2 solo esos*/
+p~h3{
+	background-color:pink;
+	}/*los h3 que van delante de p*/
+img[alt=ejemplo]{
+	border:5px solid grey;
+}
+p~h3.antes{
+	background-color:pink;
+}
