@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link href="./css/estilos.css" rel="stylesheet" type="text/css"> <!-- ESTO ES LA FORMA DE APLICAR ESTILOS MAS RECOMENDADA-->
+    	<meta name="description" content="los tipos de estilos" />
+    	<title>Prueba de CSS</title>
+    </head>
+    <body>
+    	<div>
+	    		<div>
+	    			<h1 class="titulo">PARTE 2 B</h1>
+	    		</div>
+	    		<div>
+	    			<h1 class="titulo">HOJA DE INSCRIPCIÓN</h1>
+	    			<h1 class="titulo">EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+	    		</div>
+	    		<div>
+	    			<form action="#" method="POST">
+	    			<fieldset id="fondo1">
+	    				<legend>Datos Personales</legend>
+	    				<table>
+	    					<tr>
+	    						<td><label for="nombre">Nombre:</label></td>
+	    						<td><label for="apellido">Apellido:</label></td>
+	    						<td><label for="dni">DNI:</label></td>
+	    					</tr>
+	    					<tr>
+	    						<td><input type="text" name="nombre" id="nombre" size="20" maxlength="250"></td>
+	    						<td><input type="text" name="apellido" id="apellido" size="20" maxlength="250"></td>
+	    						<td><input type="text" name="dni" id="dni" size="20" maxlength="9" pattern="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))"></td>
+	    					</tr>
+	    					<tr>
+	    						<td><label for="localidad">Localidad de nacimiento:</label></td>
+	    						<td><label for="provincia">Provincia</label></td>
+	    						<td><label for="fecha">Fecha de nacimiento:</label></td>
+	    					</tr>
+	    					<tr>
+	    						<td><input type="text" name="localidad" id="localidad" size="20" maxlength="250"></td>
+	    						<td><select>
+									  <option value="Santander">Santander</option>
+									  <option value="Burgos">Burgos</option>
+									</select></td>
+	    						<td><input type="date" name="fecha" id="fecha" size="20" maxlength="250"></td>
+	    					</tr>
+	    					<tr>
+	    						<td colspan="2"><label for="direccion">Dirección:</label></td>
+	    						<td><label for="codigo">Código postal:</label></td>
+	    					</tr>
+	    					<tr>
+	    						<td><input type="text" name="direccion" id="direccion" size="40" maxlength="300"></td>
+	    						<td><input type="number" name="codigo" id="codigo" size="20" maxlength="5"></td>
+	    					</tr>
+	    				</table>
+	    			</fieldset>
+	    			<div>
+		    			<fieldset id="fondo2">
+		    				<legend>Forma de Acceso</legend>
+		    				<ul>
+		    					<li><label for="direct"><input type="radio" name="formacceso" value="directo" id="direct"/>Directo</label> <!--El label sirve para poder pinchar en el nombre de cada opcion, hay que añadirle el id y en el label el for-->
+		    					<ul>
+		    						<li><label for="bach"><input type="radio" name="formacceso" value="directo" id="bach"/>Bachillerato LOG Modalidad</label><label for="bachi"><input type="text" name="directo" id="bachi"/></label></li>
+		    						<li><input type="radio" name="formacceso" value="exp"/>Experimental</li>
+		    						<li><input type="radio" name="formacceso" value="cou"/>COU Opción<input type="text" name="cou"/></li>
+		    						<li><input type="radio" name="formacceso" value="fp"/>FP2</li>
+		    						<li><input type="radio" name="formacceso" value="otro"/>Otros (especifique)<input type="text" name="otros"/></li>
+		    					</ul>
+		    					</li>
+		    					<li><input type="radio" name="libre" value="libre"/>Prueba libre</li>
+		    				</ul>
+		    			</fieldset>
+	    			</div>
+	    			<div>
+	    				<fieldset id="fondo3">
+	    					<legend>Documentos Adjuntados</legend>
+	    					<table>
+	    						<tr>
+	    							<td><input type="radio" name="fotodni" value="fotocop"/>Fotocopia DNI</td>
+	    							<td><input type="radio" name="certaca" value="cert"/>Certificado Académico</td>
+	    						</tr>
+	    						<tr>
+	    							<td><input type="radio" name="docs" value=""otros/>Otros documentos (especifique)<input type="text" name="certaca" size="20" maxlength="300" /></td>
+	    						</tr>
+	    					</table>
+	    				</fieldset>
+	    			</div>
+	    		</form>
+	    	</div>
+	    </div>
+	</body>
+</html>
