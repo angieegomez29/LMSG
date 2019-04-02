@@ -1,23 +1,46 @@
+body{
+	font-family: "Helvetica", Arial
+}
 #fot1{
 	float:right;
-	width: 50%;
+	width: 47%;
 	display: block;
 	margin: auto;
-	padding: 40px;
+	padding: 10px;
 	background-color:blue;
 	background-position: 50%;
 	border-top: 15px solid green;
 	border-bottom: 10px dashed orange;
-}
-#fot2{
-	float:right;
-	width: 50%;
-	display: block;
-	margin: auto;
-	padding: 40px;
-	background-color:blue;
-	background-position: 50%;
-	border-top: 15px solid green;
-	border-bottom: 10px dashed orange;
+	height: 700px;
 }
 
+#fot2{
+	float:left;
+	width: 47%;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	background-color:blue;
+	background-position: 50%;
+	border-top: 15px solid green;
+	border-bottom: 10px dashed orange;
+	height: 700px;
+}
+div.contenedor{
+	background-color: grey;
+	padding: 45px;
+}
+.foto{
+	width: 300px;
+	height: 300px;
+
+}
+.titulo{
+	text-align: center;
+	font-weight: bold;
+	background-color: lightgrey;
+	border-radius: 5px;
+}
+p{
+	color: silver;
+}
