@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/*Pantalla Galaxy S5*/
+.container{
+	width:90%;
+	margin:0px auto;
+}
+.container > *{height: 150px;} /*Todo lo que ehay dentro de container*/
+
+header{
+	background-color: yellow;
+	text-align: center;
+	padding: 2em;
+}
+.red{
+	background-color: red;
+
+}
+.blue{
+	background-color: blue;
+
+}
+.green{
+	background-color: green;
+}
+
+/*Segunda pantalla de tablet*/
+@media screen and (min-width: 576px)
+	{.red, .blue{
+		float:left;
+		width: 50%;
+		}
+	.green{
+		float:left;
+		width: 100%;
+		}
+	}
+
+/*Pantalla PC*/
+
+@media screen and (min-width: 993px){
+	.red, .blue, .green{
+		float: left;
+		width: 33.33%
+	}
+}
+@media screen and (orientation:landscape){
+	header{
+		background-color: orange;
+		color:green;
+	}
+}
