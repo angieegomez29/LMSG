@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.title{
+	text-align: center;
+	font-family: Arial;
+	color: grey;
+}
+.container{
+	border-radius: 10px;
+	margin: 8px auto;
+	position:relative;
+	height:600px;
+	width:80%;
+	display:inline-block;
+}
+.navsup nav{
+	color:white;
+	text-align: center;
+	display:inline-block;
+}
+.navsup{
+	background-color: violet;
+	font-size: 1.5em;
+	padding: 5px;
+	width: 100%;
+}
+.navsup a{
+	color:white;
+	width: 150px;
+	text-decoration: none;
+}
+.linkmenu{
+	display: inline-block;
+	padding:10px;
+}
+.navlat{
+	background-color: violet;
+	color:white;
+	float:left;
+	font-size:1em;
+	height: 78%;
+	width:17%;
+	margin-top:20px;
+}
+	
+.navlat ul{
+	list-style: none;
+
+}
+.navlat a{	
+	text-decoration: none;
+	color:white;
+}
+.navlat li{
+	padding-top: 20px;
+}
+.seccion{
+	float:left;
+	margin-left:5px;
+	margin-top: 30px;
+}
+
+.overflow{
+	border:1px solid pink;
+	border-radius: 10px;
+	position: absolute;
+	width: 25%;
+	text-align: center;
+	float:left; 
+	left:20%;
+}
+.float{
+	border:1px solid pink;
+	border-radius: 10px;
+	position: absolute;
+	width: 25%;
+	text-align: center;
+	float:left; 
+	left:45%;
+
+}
+.clear{
+	border:1px solid pink;
+	border-radius: 10px;
+	position:absolute;
+	width: 25%;
+	text-align: center;
+	float:left; 
+	left:70%;
+}
+.columnas{
+	column-count: 3;
+	-webkit-colum-count: 3;
+	margin-left: 20%;
+	margin-top: 10px;
+	width: 70%;
+	float:left;
+	position: relative;
+	bottom: 300px;
+}
+footer{
+	background-color: lightgrey;
+	text-align: center;
+	width: auto;
+	height: 50px;
+}
